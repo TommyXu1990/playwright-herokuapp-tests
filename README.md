@@ -13,7 +13,7 @@ It simulates logging in to the test site: [`https://the-internet.herokuapp.com/l
 
 ---
 
-## 📂 Folder Structure
+📂 Folder Structure
 
 playwright-login-demo/
 │
@@ -26,11 +26,11 @@ playwright-login-demo/
 
 ---
 
-## 🚀 How to Run This Test Locally
+🚀 How to Run This Test Locally
 
 > 🛠️ This requires [Node.js](https://nodejs.org) and [Playwright](https://playwright.dev/) to be installed.
 
-### 1. Clone the Repository
+1. Clone the Repository
 ```bash
 git clone https://github.com/TommyXu1990/playwright-login-demo.git
 cd playwright-login-demo
