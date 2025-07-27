@@ -38,15 +38,18 @@ cd playwright-login-demo
 
 2. Install Dependencies
 ```bash
-npm install```
+npm install
+```
 
 3. Install Playwright Browsers
 ```bash
-npx playwright install```
+npx playwright install
+```
 
 Run the Test (with browser visible)
 ```bash
-npx playwright test --headed```
+npx playwright test --headed
+```
 
 ---
 
