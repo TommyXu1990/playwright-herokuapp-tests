@@ -11,4 +11,6 @@ test('test', async ({ page }) => {
   await page.locator('html').click();
   await expect(page.locator('h4')).toContainText('Welcome to the Secure Area. When you are done click logout below.');
   await expect(page.getByRole('link', { name: 'Logout' })).toBeVisible();
+  await page.getByRole('link', { name: 'Logout' }).click();
+  await page.getByText('You logged out of the secure').click();
 });
