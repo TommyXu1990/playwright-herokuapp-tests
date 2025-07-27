@@ -33,19 +33,19 @@ playwright-login-demo/
 1. Clone the Repository
 ```bash
 git clone https://github.com/TommyXu1990/playwright-login-demo.git
-cd playwright-login-demo
+cd playwright-login-demo```
 
 2. Install Dependencies
 ```bash
-npm install
+npm install```
 
 3. Install Playwright Browsers
 ```bash
-npx playwright install
+npx playwright install```
 
 Run the Test (with browser visible)
 ```bash
-npx playwright test --headed
+npx playwright test --headed```
 
 ---
 
