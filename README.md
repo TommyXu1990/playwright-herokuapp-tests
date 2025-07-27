@@ -15,6 +15,7 @@ It simulates logging in to the test site: [`https://the-internet.herokuapp.com/l
 
 📂 Folder Structure
 
+'''
 playwright-login-demo/
 │
 ├── tests/ # Contains login.spec.js
@@ -23,6 +24,7 @@ playwright-login-demo/
 ├── package-lock.json
 ├── playwright.config.js
 └── README.md
+'''
 
 ---
 
