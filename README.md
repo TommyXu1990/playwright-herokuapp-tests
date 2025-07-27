@@ -63,9 +63,9 @@ VS Code
 🎥 Setup Help (Optional Videos)
 Want to follow along with setup? These step-by-step videos will guide you:
 
-([Watch Node.js installation](https://komododecks.com/recordings/RD35WG7HTNVV8HIiV32a?onlyRecording=1)) [Node.js](https://nodejs.org)
+[Watch Node.js installation](https://komododecks.com/recordings/RD35WG7HTNVV8HIiV32a?onlyRecording=1) [Node.js](https://nodejs.org)
 
-([Watch VS Code installation](https://www.loom.com/share/4ddcecfd0b6140d7866ad0280d8783c5)) [VS Code](https://code.visualstudio.com/Download)
+[Watch VS Code installation](https://www.loom.com/share/4ddcecfd0b6140d7866ad0280d8783c5) [VS Code](https://code.visualstudio.com/Download)
 
 Install & Run [Playwright](https://playwright.dev/)
 
