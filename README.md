@@ -15,7 +15,7 @@ It simulates logging in to the test site: [`https://the-internet.herokuapp.com/l
 
 📂 Folder Structure
 
-'''
+```
 playwright-login-demo/
 │
 ├── tests/ # Contains login.spec.js
@@ -24,7 +24,7 @@ playwright-login-demo/
 ├── package-lock.json
 ├── playwright.config.js
 └── README.md
-'''
+```
 
 ---
 
@@ -33,23 +33,27 @@ playwright-login-demo/
 > 🛠️ This requires [Node.js](https://nodejs.org) and [Playwright](https://playwright.dev/) to be installed.
 
 1. Clone the Repository
-```bash
+```
+bash
 git clone https://github.com/TommyXu1990/playwright-login-demo.git
 cd playwright-login-demo
 ```
 
 2. Install Dependencies
-```bash
+```
+bash
 npm install
 ```
 
 3. Install Playwright Browsers
-```bash
+```
+bash
 npx playwright install
 ```
 
 Run the Test (with browser visible)
-```bash
+```
+bash
 npx playwright test --headed
 ```
 
