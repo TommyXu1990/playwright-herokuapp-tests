@@ -31,6 +31,7 @@ playwright-login-demo/
 🚀 How to Run This Test Locally
 
 > 🛠️ This requires [Node.js](https://nodejs.org) and [Playwright](https://playwright.dev/) to be installed.
+    [Watch Video and follow along :)](https://www.loom.com/share/f367ea1f62ea48329627b86539c84b7d?sid=0706a85a-3e61-4791-b752-083b69ebff9e)
 
 1. Clone the Repository
 ```
