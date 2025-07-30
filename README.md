@@ -1,16 +1,24 @@
 # 🔐 Playwright Login Demo
 
-This is a simple login automation test built using [Microsoft Playwright](https://playwright.dev/).  
-It simulates logging in to the test site: [`https://the-internet.herokuapp.com/login`](https://the-internet.herokuapp.com/login).
+This project contains UI automation tests using [Playwright](https://playwright.dev/) on [the-internet.herokuapp.com](https://the-internet.herokuapp.com/), a popular web UI testing playground.
 
-✅ **Tested Flow:**
+✅ Tested Cases
+
+🔐 Login
 - Open login page
 - Enter valid username and password
 - Verify successful login
-- Confirm logout button appears
 - Click logout
 - Confirm successful logout message
 
+
+☑️ Checkboxes
+- Toggle checkbox states
+- Verify expected behavior using assertions
+
+🔄 Dynamic Controls
+- Wait for input field to be enabled/disabled
+- Demonstrates use of explicit waits and state validation
 ---
 
 📂 Folder Structure
@@ -18,7 +26,10 @@ It simulates logging in to the test site: [`https://the-internet.herokuapp.com/l
 ```
 playwright-login-demo/
 │
-├── tests/ # Contains login.spec.js
+├── tests/
+│   ├── login.spec.ts
+│   ├── checkboxes.spec.ts
+│   └── dynamic-controls.spec.ts
 ├── .gitignore
 ├── package.json
 ├── package-lock.json
@@ -36,7 +47,7 @@ playwright-login-demo/
 1. Clone the Repository
 ```
 bash
-git clone https://github.com/TommyXu1990/playwright-login-demo.git
+git clone https://github.com/TommyXu1990/playwright-herokuapp-tests.git
 cd playwright-login-demo
 ```
 
@@ -91,7 +102,7 @@ Practice Playwright fundamentals
 
 Learn best practices for writing, refactoring, and verifying end-to-end tests
 
-Simulate real-world login and logout flows
+Automated real-world UI tests for login, checkboxes, and dynamic controls using Playwright.
 
 ---
 
