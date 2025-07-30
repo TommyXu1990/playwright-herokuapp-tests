@@ -21,19 +21,55 @@ This project contains UI automation tests using [Playwright](https://playwright.
 - Demonstrates use of explicit waits and state validation
 ---
 
+---
+
+## 🧪 Test Case Documentation
+
+Each test feature has its own test case document:
+
+- 📄 [Login Test Case](./test-cases/login-test-case.md)
+- 📄 [Checkboxes Test Case](./test-cases/checkboxes-test-case.md)
+- 📄 [Dynamic Controls Test Case](./test-cases/dynamic-controls-test-case.md)
+
+---
+
+## 📸 Screenshots
+
+Test run screenshots are stored in the `screenshots/` folder for clarity and visual documentation:
+
+- 🔐 Login screen and secure area
+- ✅ Initial and post-test checkbox states
+- 🔄 Before/after states for dynamic input
+
+---
+
 📂 Folder Structure
 
 ```
 playwright-login-demo/
 │
 ├── tests/
-│   ├── login.spec.ts
-│   ├── checkboxes.spec.ts
-│   └── dynamic-controls.spec.ts
+│ ├── login.spec.js
+│ ├── checkboxes.spec.js
+│ └── dynamic-controls.spec.js
+│
+├── test-cases/
+│ ├── login-test-case.md
+│ ├── checkboxes-test-case.md
+│ └── dynamic-controls-test-case.md
+│
+├── screenshots/
+│ ├── login.png
+│ ├── logout.png
+│ ├── Screenshot checkboxes-initial-state
+│ ├── Screenshot checkboxes-final-state
+│ └── dynamic-controls.png
+│
 ├── .gitignore
 ├── package.json
 ├── package-lock.json
 ├── playwright.config.js
+├── LICENSE
 └── README.md
 ```
 
@@ -63,11 +99,24 @@ bash
 npx playwright install
 ```
 
-Run the Test (with browser visible)
+4. Run the Tests
 ```
 bash
-npx playwright test --headed
+npx playwright test 
 ```
+
+4. Run Specific Test File
+```
+bash
+npx playwright test tests/login.spec.js
+```
+
+Run Specific Test File (with browser visible)
+```
+bash
+npx playwright test tests/login.spec.js --headed
+```
+
 
 ---
 
