@@ -1,4 +1,4 @@
-# ✅ Test Case: Login Automation Test
+ ✅ Test Case: Login Automation Test
 
 ## Objective
 To verify that a user can successfully log in and log out using valid credentials at [Herokuapp - login](https://the-internet.herokuapp.com/login).
